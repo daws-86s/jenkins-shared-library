@@ -4,7 +4,7 @@ def call (Map configMap){
     // These are pre-build sections
         agent {
             node {
-                label 'AGENT-1'
+                label 'AGENT-1' //roboshop-java
             }
         }
         environment {
